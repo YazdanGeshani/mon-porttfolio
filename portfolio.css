@@ -1,0 +1,74 @@
+main h1 , h2
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    max-width: 50%;
+    text-align: left;
+}
+body
+{
+    background-color: black;
+    color: #ffffffda;
+}
+#option
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+#logo
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+section
+{
+    padding-top: 200px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    
+}
+#follow
+{
+    position: fixed;
+    opacity: 55%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    margin-left: 65%;
+    padding: auto;
+    max-height: 40px;
+}
+#follow:hover
+{
+    color: rgb(189, 0, 0)
+}
+#social
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact
+{
+    text-align: center;
+}
+.open
+{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx8qP384O1Vnj-XVI1FTn3g3Nns8tqS23tZw&usqp=CAU) ;
+    opacity: 80%;
+}
+.open:hover
+{
+    visibility: hidden;
+}
